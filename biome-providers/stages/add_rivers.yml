@@ -1,0 +1,15 @@
+riverSampler: &riverSampler $biome-providers/stages/river_samplers/default.yml:sampler
+
+stages:
+  # - type: REPLACE
+    # from: BIOME:BOREAL_MOUNTAINS
+    # to:
+      # - SELF: 1
+      # - BOREAL_STREAMS: 1
+    # sampler: *riverSampler
+  - type: REPLACE
+    from: USE_STREAMS
+    to:
+      - SELF: 1
+      - DRAFTY_STREAMS: 3
+    sampler: *riverSampler

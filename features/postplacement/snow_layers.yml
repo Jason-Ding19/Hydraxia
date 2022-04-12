@@ -1,0 +1,16 @@
+id: SNOW_LAYERS
+type: FEATURE
+
+distributor:
+  type: "YES"
+
+locator:
+  type: SURFACE
+  range:
+    min: 62
+    max: 319
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: snow_layers

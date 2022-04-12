@@ -1,0 +1,17 @@
+stages:
+  - type: FRACTAL_EXPAND
+    sampler:
+      type: WHITE_NOISE  
+      salt: 2
+  - type: FRACTAL_EXPAND
+    sampler:
+      type: WHITE_NOISE  
+      salt: 3
+  - type: FRACTAL_EXPAND
+    sampler:
+      type: WHITE_NOISE  
+      salt: 4
+  - type: FRACTAL_EXPAND
+    sampler:
+      type: WHITE_NOISE  
+      salt: 5

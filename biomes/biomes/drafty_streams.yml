@@ -1,0 +1,23 @@
+id: DRAFTY_STREAMS
+type: BIOME
+extends: [ BASE, EQ_STREAM ]
+
+vanilla: minecraft:frozen_river
+
+palette:
+  - GRASSY_SNOWY_GROUND: 319
+  - OCEAN_SAND: 62
+  - << meta.yml:palette-bottom
+  
+features:
+  miscellaneous:
+    - ICE_COASTLINE
+  flora:
+    - KELP
+    - SEAGRASS
+  postplacement:
+    - SNOW_LAYERS
+    - TREE_SNOW
+    
+tags:
+  - WATER

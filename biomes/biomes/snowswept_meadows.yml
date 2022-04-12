@@ -1,0 +1,24 @@
+id: SNOWSWEPT_MEADOWS
+type: BIOME
+extends: [ BASE, EQ_SNOWSWEPT_MEADOWS ]
+
+vanilla: minecraft:snowy_plains
+
+palette:
+  - GRASSY_SNOWY_GROUND: 319
+  - << meta.yml:palette-bottom
+  
+features:
+  natural:
+    - BOULDERS
+    - SMALL_BOULDER_PATCHES
+  trees:
+    - OAK_TREES_MEADOWS
+  postplacement:
+    - SNOW_LAYERS
+    - TREE_SNOW
+    
+tags:
+  - LAND
+  - NON_MOUNTAINS
+  - USE_STREAMS

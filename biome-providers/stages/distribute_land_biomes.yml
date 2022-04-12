@@ -1,0 +1,19 @@
+stages:
+  - type: REPLACE
+    from: land
+    to:
+      - SNOWSWEPT_MEADOWS: 2
+      - FROSTCOATED_WOODLANDS: 2
+      - BOREAL_PEAKS: 1
+    sampler:
+      type: DOMAIN_WARP
+      amplitude: 10
+      frequency: 0.01
+      warp:
+        type: CELLULAR
+        return: CellValue
+        frequency: 0.25
+      sampler:
+        type: CELLULAR
+        frequency: 0.05
+        return: CellValue

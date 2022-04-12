@@ -1,0 +1,28 @@
+id: FROSTCOATED_WOODLANDS
+type: BIOME
+extends: [ BASE, EQ_FROSTCOATED_WOODLANDS ]
+
+vanilla: minecraft:snowy_taiga
+
+palette:
+  - GRASSY_SNOWY_GROUND: 319
+  - RIVER_BED: 61
+  - << meta.yml:palette-bottom
+  
+features:
+  natural:
+    - BOULDERS
+    - SMALL_BOULDER_PATCHES
+    - OAK_LEAF_BUSH
+  trees:
+    - OAK_TREES_FOREST
+  flora:
+    - SEAGRASS
+  postplacement:
+    - SNOW_LAYERS
+    - TREE_SNOW
+ 
+tags:
+  - LAND
+  - NON_MOUNTAINS
+  - USE_STREAMS

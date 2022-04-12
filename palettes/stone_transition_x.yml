@@ -1,0 +1,22 @@
+type: PALETTE
+id: STONE_TRANSITION_X
+
+layers:
+  - materials:
+      - minecraft:stone: 2
+      - minecraft:tuff: 2
+      - minecraft:gravel: 1
+      - minecraft:calcite: 1
+      - minecraft:andesite: 2
+      - minecraft:cobblestone: 2
+    layers: 1
+    
+sampler:
+  dimensions: 2
+  type: DOMAIN_WARP
+  warp:
+    type: WHITE_NOISE
+  sampler:
+    type: CELLULAR
+    frequency: 0.3
+    return: CellValue

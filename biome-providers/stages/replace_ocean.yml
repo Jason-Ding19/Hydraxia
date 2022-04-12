@@ -1,0 +1,7 @@
+stages:
+  - type: REPLACE
+    from: ocean
+    to:
+      - WINTRY_WATERS: 1
+    sampler:
+      type: CONSTANT

@@ -1,0 +1,16 @@
+id: BASE
+type: BIOME
+abstract: true
+extends:
+  - DEPOSITS_DEFAULT
+  - ORES_DEFAULT
+  - CARVING_LAND
+
+ocean:
+  palette: BLOCK:minecraft:water
+  level: 62
+  
+features:
+  global-preprocessors:
+    - CONTAIN_FLOATING_WATER
+    - LAVA_FLOOR

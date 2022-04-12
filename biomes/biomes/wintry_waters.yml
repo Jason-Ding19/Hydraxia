@@ -1,0 +1,27 @@
+id: WINTRY_WATERS
+type: BIOME
+extends: [ BASE, EQ_OCEAN_SHALLOW ]
+
+vanilla: minecraft:frozen_ocean
+
+palette:
+  - STONY_GROUND: 319
+  - OCEAN_SAND: 62
+  - << meta.yml:palette-bottom
+
+slant-depth: 4
+
+slant:
+  - threshold: 2.5
+    palette:
+      - BLOCK:minecraft:stone: 319
+      - OCEAN_GRAVEL: 61
+      - << meta.yml:palette-bottom
+  
+features:
+  flora:
+    - KELP
+    - SEAGRASS
+    
+tags:
+  - WATER

@@ -1,0 +1,23 @@
+id: BOREAL_MOUNTAINS
+type: BIOME
+extends: [ BASE, EQ_BOREAL_MOUNTAINS ]
+
+vanilla: minecraft:snowy_slopes
+
+palette:
+  - GRASSY_SNOWY_GROUND: 319
+  - << meta.yml:palette-bottom
+  
+features:
+  natural:
+    - BOULDERS
+    - SMALL_BOULDER_PATCHES
+  trees:
+    - SPRUCE_TREES_MOUNTAINS
+  postplacement:
+    - SNOW_LAYERS
+    - TREE_SNOW
+    
+tags:
+  - LAND
+  - USE_STREAMS

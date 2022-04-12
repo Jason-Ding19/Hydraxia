@@ -1,0 +1,57 @@
+stages:
+  - type: BORDER
+    from: BIOME:BOREAL_PEAKS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+    type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT
+  - type: BORDER
+    from: BIOME:BOREAL_MOUNTAINS
+    replace: NON_MOUNTAINS
+    to:
+      - BOREAL_MOUNTAINS: 1
+    sampler:
+      type: CONSTANT

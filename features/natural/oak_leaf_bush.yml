@@ -1,0 +1,33 @@
+id: OAK_LEAF_BUSH
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 7
+  padding: 2
+  salt: 9152
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 62
+        max: 319
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: OR
+        patterns:
+          - type: MATCH_SET
+            blocks: $features/miscellaneous/plantable.yml:plantable-blocks
+            offset: -1
+          - type: MATCH
+            block: minecraft:snow_block
+            offset: -1
+
+
+structures:
+  distribution:
+    type: CONSTANT
+  structures: oak_leaf_bush

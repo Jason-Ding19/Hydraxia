@@ -1,0 +1,22 @@
+id: BOREAL_PEAKS
+type: BIOME
+extends: [ BASE, EQ_BOREAL_PEAKS ]
+
+vanilla: minecraft:frozen_peaks
+
+palette:
+  - SNOWY_GROUND: 319
+  - << meta.yml:palette-bottom
+  
+features:
+  natural:
+    - BOULDERS
+    - SMALL_BOULDER_PATCHES
+    - ICE_BOULDERS
+    - SPRUCE_LEAF_BUSH
+  postplacement:
+    - SNOW_LAYERS
+    - TREE_SNOW
+    
+tags:
+  - LAND
