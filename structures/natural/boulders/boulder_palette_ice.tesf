@@ -1,0 +1,4 @@
+num blockSelection = randomInt(3);
+if(blockSelection == 0) block(0, 0, 0,"minecraft:ice");
+else if(blockSelection == 1) block(0, 0, 0,"minecraft:packed_ice");
+else if(blockSelection == 2) block(0, 0, 0,"minecraft:blue_ice");

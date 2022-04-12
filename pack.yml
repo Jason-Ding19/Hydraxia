@@ -1,0 +1,108 @@
+id: HYDRAXIA
+version: 1.0
+author: "Jaddot"
+
+#Do note that this is the first version of the pack, so please report any bugs to 
+#the GitHub page linked to this pack. 
+#
+#Once I've figured out how to use the darn platform, of course...
+
+#--------------------------------------------------------------------------
+#DISCLAIMER | Hydraxia: A Winterland's Fantasy includes many configuration
+#files are originally created by Astrash, Sancires, and dfsek, meant for 
+#the default 6.0 Terra generation pack. I have slightly edited such files,
+#however the majority of the work in these specific files were created by
+#the 3 I mentioned above. Huge thanks to the PolyDev team for creating such 
+#an amazing tool and stunning terrain for others to enjoy!
+#
+#Check out the default 6.0 pack here:
+#https://github.com/PolyhedralDev/TerraOverworldConfig
+#--------------------------------------------------------------------------
+
+generator: NOISE_3D
+
+addons:
+  biome-provider-pipeline: "0.1.+"
+  biome-provider-single: "0.1.+"
+  chunk-generator-noise-3d: "0.1.+"
+  config-biome: "0.1.+"
+  config-flora: "0.1.+"
+  config-noise-function: "0.1.+"
+  config-ore: "0.1.+"
+  config-palette: "0.1.+"
+  config-distributors: "0.1.+"
+  config-locators: "0.1.+"
+  config-feature: "0.1.+"
+  structure-terrascript-loader: "0.1.+"
+  structure-sponge-loader: "0.1.+"
+  language-yaml: "0.1.+"
+  generation-stage-feature: "0.1.+"
+  structure-function-check-noise-3d: "0.1.+"
+  palette-block-shortcut: "0.1.+"
+  structure-block-shortcut: "0.1.+"
+  terrascript-function-sampler: "0.1.+"
+  
+stages:
+  - type: FEATURE
+    id: global-preprocessors
+  - type: FEATURE
+    id: miscellaneous
+  - type: FEATURE
+    id: natural
+  - id: ores
+    type: FEATURE
+  - id: deposits
+    type: FEATURE
+  - type: FEATURE
+    id: trees
+  - type: FEATURE
+    id: flora
+  - type: FEATURE
+    id: postplacement
+  
+biomes: 
+  type: PIPELINE
+  resolution: 2
+  initial-size: 50
+  blend:
+    amplitude: 1
+    sampler:
+      type: GAUSSIAN
+  pipeline:
+    source: $biome-providers/sources/hydraxia_source.yml:source
+    stages:
+      - << biome-providers/stages/distribute_land_biomes.yml:stages
+      - type: FRACTAL_EXPAND
+        sampler:
+          type: WHITE_NOISE  
+          salt: 1
+      - << biome-providers/stages/border_boreal_mountains.yml:stages
+      - << biome-providers/stages/replace_ocean.yml:stages
+      - type: BORDER
+        from: BIOME:WINTRY_WATERS
+        replace: LAND
+        to:
+          - SNOWDRIFT_COASTS: 1
+        sampler:
+          type: CONSTANT
+      - << biome-providers/stages/border_snowdrift_coasts.yml:stages
+      - << biome-providers/stages/expand.yml:stages
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+          salt: 1
+      - type: SMOOTH
+        sampler:
+          type: WHITE_NOISE
+          salt: 2
+      - << biome-providers/stages/add_rivers.yml:stages
+          
+samplers:
+  "<<":
+    - samplers/samplers.yml:samplers
+    
+functions:
+  "<<":
+    - functions/terrace.yml:functions
+    - functions/lerp.yml:functions
+    - functions/maskSmooth.yml:functions

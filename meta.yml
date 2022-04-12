@@ -1,0 +1,46 @@
+
+biome-distribution:
+  # Biome distribution refers to the placement of biomes, this does *NOT*
+  # include aspects like terrain height / shape within biomes, or anything
+  # else that generates within any given biome.
+  
+  # These parameters are designed to allow for easy modification of biome distribution,
+  # and are injected into the various biome distribution configs via meta-configuration.
+  # You can find these configs in the biome-providers directory, most of which contain
+  # additional more specific parameters.
+  
+  continental-scale: 150
+  # Controls the scale of land / costal / oceanic distribution. Increasing
+  # this produces larger landmasses and larger oceans, and vice-versa when
+  # decreasing it.
+
+  variation-scale: 100
+  # Controls biome variations within each temperature + precipitation + elevation zone.
+  # Some biomes belong to the same groups, and so we have an extra variation map that
+  # determines which of these biomes within the same group get generated.
+
+  river-spread-scale: 10
+  # Controls how far / close apart rivers generally are, larger scale = further apart
+  # rivers, smaller scale = closer packed together rivers.
+  
+  global-scale: 1
+  # Modifies the scale of everything, you can use this parameter to if you
+  # want just about every biome to be larger or smaller.
+  # By doubling the scale, you double the length & width of everything,
+  # e.g. if you have a biome that is 300 blocks wide with a scale of 1, and
+  # increase that scale to 2, that biome will generate 600 blocks wide.
+
+# Misc global config stuff
+
+strata: # Controls global Y level ranges of strata
+  deepslate:
+    top: 7
+    bottom: -7
+  bedrock:
+    top: -60
+    bottom: -64
+
+palette-bottom: # Added to the bottom of every palette
+  - DEEPSLATE: $meta.yml:strata.deepslate.top
+  - BEDROCK: $meta.yml:strata.bedrock.top
+  - BLOCK:minecraft:bedrock: $meta.yml:strata.bedrock.bottom
