@@ -19,21 +19,22 @@ Hydraxia: A Winterland's Fantasy consists of a few basic snow-themed biomes.
 One of these biomes are the Snowswept Meadows, a typical vanilla Minecraft Plains biome with a few trees here and there, covered in a layer of snow, with rocks and boulders dotting the landscape.
 
 ![image](https://user-images.githubusercontent.com/76827500/163074090-abfa043c-4109-4785-aee8-6819c91d7fdd.png)
-Snowswept Meadows
+*Snowswept Meadows*
 
 Another common biome is called the Frostcoated Woodlands, your general forest with larger trees and bushes and of course, snow.
 
 ![image](https://user-images.githubusercontent.com/76827500/163074125-845675da-ee5a-4f8a-b8f0-04c0f4e5bbd3.png)
-Frostcoated Woodlands
+*Frostcoated Woodlands*
 
 Boreal Peaks is a more extreme biome, extending up high in the air, giving you a breathtaking view of the world around you. Boreal Mountains surround it, and it has a bit more vegetation than its bigger counterpart.
 
 ![image](https://user-images.githubusercontent.com/76827500/163081056-4e48d906-77d3-4fee-99e8-1eca42e3819e.png)
-Boreal Peaks
+*Boreal Peaks*
+
 ![image](https://user-images.githubusercontent.com/76827500/163074182-012ac3de-b703-46b3-9f77-781240def43c.png)
-Boreal Mountains
+*Boreal Mountains*
 
 Of course, an immersive world wouldn't be one without some sort of water source. Wintry Waters is a semi-frozen ocean that has Snowdrfit Coasts bordering it, spiky layers of rock that protrude from the depths of the water.
 
 ![image](https://user-images.githubusercontent.com/76827500/163074212-a86073d0-5677-47bb-9c08-1cb2d04d844e.png)
-Snowdrift Coasts
+*Snowdrift Coasts*
