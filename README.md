@@ -13,6 +13,12 @@ Once I've figured out how to use the darn platform, of course...
 # Biomes
 Hydraxia: A Winterland's Fantasy consists of a few basic snow-themed biomes.
 
+
+
 One of these biomes are the Snowswept Meadows, a typical vanilla Minecraft Plains biome with a few trees here and there, covered in a layer of snow, with rocks and boulders dotting the landscape.
 
-Another common biome is called the Frostcoated Woodlands, 
+Another common biome is called the Frostcoated Woodlands, your general forest with larger trees and bushes and of course, snow.
+
+Boreal Peaks is a more extreme biome, extending up high in the air, giving you a breathtaking view of the world around you. Boreal Mountains surround it, and it has a bit more vegetation than its bigger counterpart.
+
+Of course, an immersive world wouldn't be one without some sort of water source. Wintry Waters is a semi-frozen ocean that has Snowdrfit Coasts bordering it, spiky layers of rock that protrude from the depths of the water.
