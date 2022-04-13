@@ -8,5 +8,11 @@ Check out the default 6.0 pack here:
 https://github.com/PolyhedralDev/TerraOverworldConfig
 
 Do note that this is the first version of the pack, so please report any bugs to the GitHub page linked to this pack. 
-
 Once I've figured out how to use the darn platform, of course...
+
+# Biomes
+Hydraxia: A Winterland's Fantasy consists of a few basic snow-themed biomes.
+
+One of these biomes are the Snowswept Meadows, a typical vanilla Minecraft Plains biome with a few trees here and there, covered in a layer of snow, with rocks and boulders dotting the landscape.
+
+Another common biome is called the Frostcoated Woodlands, 
