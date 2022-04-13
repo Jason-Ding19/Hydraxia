@@ -34,7 +34,7 @@ Boreal Peaks is a more extreme biome, extending up high in the air, giving you a
 ![image](https://user-images.githubusercontent.com/76827500/163074182-012ac3de-b703-46b3-9f77-781240def43c.png)
 *Boreal Mountains*
 
-Of course, an immersive world wouldn't be one without some sort of water source. Wintry Waters is a semi-frozen ocean that has Snowdrfit Coasts bordering it, spiky layers of rock that protrude from the depths of the water.
+Evidently, an immersive world wouldn't be one without some sort of water source. Wintry Waters is a semi-frozen ocean that has Snowdrfit Coasts bordering it, spiky layers of rock that protrude from the depths of the water.
 
 ![image](https://user-images.githubusercontent.com/76827500/163074212-a86073d0-5677-47bb-9c08-1cb2d04d844e.png)
 *Snowdrift Coasts*
