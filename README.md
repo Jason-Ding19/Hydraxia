@@ -28,7 +28,7 @@ Frostcoated Woodlands
 
 Boreal Peaks is a more extreme biome, extending up high in the air, giving you a breathtaking view of the world around you. Boreal Mountains surround it, and it has a bit more vegetation than its bigger counterpart.
 
-![image](https://user-images.githubusercontent.com/76827500/163074143-78c140dc-9d76-47bd-8520-7aec4883455b.png)
+![image](https://user-images.githubusercontent.com/76827500/163081056-4e48d906-77d3-4fee-99e8-1eca42e3819e.png)
 Boreal Peaks
 ![image](https://user-images.githubusercontent.com/76827500/163074182-012ac3de-b703-46b3-9f77-781240def43c.png)
 Boreal Mountains
