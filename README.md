@@ -1,3 +1,4 @@
+![hydraxia_title](https://user-images.githubusercontent.com/76827500/163080973-7e25227f-734d-4536-9762-dade6a5129bf.png)
 # Hydraxia: A Winterland's Fantasy
 Hydraxia: A Winterland's Fantasy is a Minecraft 1.18 Terra 6.0 World Generation pack set in an eternal winter, with beautiful snowy terrain to explore and thrive.
 
